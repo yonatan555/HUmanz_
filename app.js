@@ -5,8 +5,6 @@ const app = express();
 
 app.use(express.json())
 
-app.set('view engine', 'ejs');
-
 //load config
 dotenv.config({ path: './config/.env' })
 connectDB();
