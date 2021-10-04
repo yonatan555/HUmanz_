@@ -59,7 +59,7 @@ For Example :
    
    "ipAddress": "12.102.47.77",
    
-   "phoneNumber" : "+972-12516427"
+   "phoneNumber" : "+972-125126427"
  
 }
 
@@ -71,7 +71,7 @@ This tested by PostMan tool by sending DELETE request with id(TEHUDAT ZEHOT) par
 
 go to website and copy the next line ,for example
 
-DELETE REQUEST :  http://localhost:3000/api/client/760444406
+DELETE REQUEST :  http://localhost:3000/api/client/206087702
 
 Backend Extras have acomplished.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
