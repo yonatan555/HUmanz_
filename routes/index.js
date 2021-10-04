@@ -4,7 +4,6 @@ const { clients } = require('../models/clients')
 const { validateClient, validate_id } = require('../inputHandle/inputHandler')
 var request = require('request')
 
-
 //get all clients
 router.get('/api/clients', (req, res) => {
     clients.find({}, { _id: 0, __v: 0 }, (err, data) => {
