@@ -52,8 +52,11 @@ Example :
 {
 
    "fullName": "Ron Shamay",
+   
    "id": 206087702,
+   
    "ipAddress": "12.102.47.77",
+   
    "phoneNumber" : "+972-12516427"
  
 }
