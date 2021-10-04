@@ -66,7 +66,7 @@ Example :
 DELETE- delete a client , from mongodb database
 This tested by PostMan tool by sending DELETE request with id(TEHUDAT ZEHOT) parameter to server.
 go to website and copy the next line ,for example
-DELETE REQUEST :  http://localhost3000/api/client/760444406
+DELETE REQUEST :  http://localhost3000/api/client/<--id-->
 
 Backend Extras have acomplished.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
