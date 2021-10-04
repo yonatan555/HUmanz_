@@ -48,8 +48,8 @@ POST REQUEST :  http://localhost:3000/api/client/add
 Then send json file with these fileds : 
 
 fullName(String) , id(Number) , phoneNumber(String),ipAddress (String).
-Example : 
 
+For Example : 
 
 {
 
