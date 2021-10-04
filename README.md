@@ -27,7 +27,7 @@ while the program is running.
 	
 GET - for getting all clients from mongoDB database, 
 go to website and copy the next line ,for example
-GET REQUEST :  http://localhost3000/api/clients
+GET REQUEST :  http://localhost:3000/api/clients
 This will pressent the whole clients.
 
 ---filter all clients who match the query---
@@ -35,13 +35,13 @@ This will pressent the whole clients.
 GET - for getting clients who answer the requirement,
       make a query in the path line web
 go to website and copy the next line ,for example
-GET REQUEST :  http://localhost3000/api/client/?city=Los Angeles&country=United States
+GET REQUEST :  http://localhost:3000/api/client/?city=Los Angeles&country=United States
 This will go to mongoDB and query it , return the appropriated data to user.
 
 
 POST - Save a new client , and insertion into MongoDB Database 
 This tested by PostMan tool by sending Json files to server 
-POST REQUEST :  http://localhost3000/api/client/add
+POST REQUEST :  http://localhost:3000/api/client/add
 
 Then send json file with these fileds : 
 
@@ -52,11 +52,8 @@ Example :
 {
 
    "fullName": "Ron Shamay",
-   
    "id": 206087702,
-   
    "ipAddress": "12.102.47.77",
-   
    "phoneNumber" : "+972-12516427"
  
 }
@@ -66,7 +63,7 @@ Example :
 DELETE- delete a client , from mongodb database
 This tested by PostMan tool by sending DELETE request with id(TEHUDAT ZEHOT) parameter to server.
 go to website and copy the next line ,for example
-DELETE REQUEST :  http://localhost3000/api/client/<--id-->
+DELETE REQUEST :  http://localhost:3000/api/client/760444406
 
 Backend Extras have acomplished.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
