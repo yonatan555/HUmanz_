@@ -49,7 +49,7 @@ Example :
 {
 
    "fullName": "Ron Shamay",
-   "id": ,415148183
+   "id": ,415148183,
    "ipAddress": "12.102.47.77",
    "phoneNumber" : "+972-12516427"
  
