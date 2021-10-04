@@ -44,6 +44,8 @@ Then send json file with these fileds :
 
 fullName(String) , id(Number) , phoneNumber(String),ipAddress (String).
 Example : 
+
+
 {
 
    "fullName": "Ron Shamay",
@@ -52,6 +54,7 @@ Example :
    "phoneNumber" : "+972-12516427"
  
 }
+
 
 
 DELETE- delete a client , from mongodb database
