@@ -24,12 +24,14 @@ while the program is running.
 2 GET requests(for filtering and get the whole clients)
 
         ---get all clients---
+	
 GET - for getting all clients from mongoDB database, 
 go to website and copy the next line ,for example
 GET REQUEST :  http://localhost3000/api/clients
 This will pressent the whole clients.
 
 	---filter all clients who match the query---
+	
 GET - for getting clients who answer the requirement,
       make a query in the path line web
 go to website and copy the next line ,for example
