@@ -5,11 +5,6 @@ const { validateClient, validate_id } = require('../inputHandle/inputHandler')
 var request = require('request')
 
 
-//for fronted 
-router.get('/', (req, res) => {
-    res.render('moshe')
-})
-
 //get all clients
 router.get('/api/clients', (req, res) => {
     clients.find({}, { _id: 0, __v: 0 }, (err, data) => {
