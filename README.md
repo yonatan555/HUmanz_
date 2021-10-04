@@ -36,6 +36,7 @@ GET - for getting clients who answer the requirement,
       make a query in the path line web
 go to website and copy the next line ,for example
 GET REQUEST :  http://localhost:3000/api/client/?city=Los Angeles&country=United States
+
 This will go to mongoDB and query it , return the appropriated data to user.
 
 
