@@ -23,22 +23,26 @@ while the program is running.
 
 2 GET requests(for filtering and get the whole clients)
 
----get all clients---
+---------------------get all clients------------------
 	
 GET - for getting all clients from mongoDB database, 
 go to website and copy the next line ,for example
 
+
 GET REQUEST :  http://localhost:3000/api/clients
+
 
 This will pressent the whole clients.
 
----filter all clients who match the query---
+---------------------filter all clients who match the query------------------
 	
 GET - for getting clients who answer the requirement,
       make a query in the path line web
 go to website and copy the next line ,for example
 
+
 GET REQUEST :  http://localhost:3000/api/client/?city=Los Angeles&country=United States
+
 
 
 This will go to mongoDB and query it , return the appropriated data to user.
@@ -48,7 +52,9 @@ POST - Save a new client , and insertion into MongoDB Database
 
 This tested by PostMan tool by sending Json files to server 
 
+
 POST REQUEST :  http://localhost:3000/api/client/add
+
 
 Then send json file with these fileds : 
 
@@ -76,7 +82,9 @@ This tested by PostMan tool by sending DELETE request with id(TEHUDAT ZEHOT) par
 
 go to website and copy the next line ,for example
 
+
 DELETE REQUEST :  http://localhost:3000/api/client/206087702
+
 
 Backend Extras have acomplished.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
